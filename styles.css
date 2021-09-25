@@ -4,53 +4,81 @@
   --light-color: #fbc4ab;
   --background-color: #fff6f1;
   --button-color: #b8eeda;
+  --brown-color: #b6846f;
 }
 
 body {
   background-color: var(--background-color);
   /* padding-top: 150px; */
 }
+nav {
+  padding: 40px 40px 0 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--brown-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--bold-color);
+}
 
 .ind-white-board {
-    margin-top: 150px;
-    background-color: white;
-    border-radius: 7px;
-    width: 900px;
-    height: 480px;
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 7px;
+  width: 900px;
+  height: 500px;
 }
 
 .ind-content {
-    position: relative;
-    top: 120px;
-    left: 30px
+  position: relative;
+  top: 60px;
+  left: 30px;
 }
 
 .ind-h1 {
-    font-family: "Rozha One", serif;
-    color: var(--light-color);
-    font-size: 29px;
+  font-family: "Rozha One", serif;
+  color: var(--light-color);
+  font-size: 29px;
 }
+
 .ind-h2 {
   font-family: "Aclonica", sans-serif;
   color: var(--bold-color);
   font-size: 70px;
 }
+
 .ind-h3 {
   font-family: "Sanchez", serif;
   color: var(--medium-color);
   font-size: 30px;
 }
 
-#get-in-touch { 
-    position: relative;
-    top: 30px;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 20px;
-    color: white;
-    background-color: var(--button-color);
-    border-radius: 4px;
-    padding: 15px 44px;
+#get-in-touch {
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  background-color: var(--button-color);
+  border-radius: 4px;
+  padding: 15px 44px;
+}
+
+#get-in-touch:hover,
+button:hover {
+  background-color: rgb(94, 209, 161);
+  transition: all 300ms ease-in-out;
 }
 
 span {
@@ -100,11 +128,10 @@ button {
 }
 
 @media (max-width: 770px) {
-    .ind-h2{
-        font-size: 50px;
-    }
-    .ind-h3{
-        font-size: 20px;
-    }
+  .ind-h2 {
+    font-size: 50px;
+  }
+  .ind-h3 {
+    font-size: 20px;
   }
 }
