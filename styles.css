@@ -19,7 +19,7 @@ body {
 
 .ind-content {
   position: relative;
-  top: 120px;
+  top: 130px;
 }
 
 .ind-h1 {
@@ -40,7 +40,7 @@ body {
 
 #get-in-touch {
   position: relative;
-  top: 60px;
+  top: 20px;
   text-decoration: none;
   font-weight: bolder;
   font-size: 20px;
@@ -94,4 +94,14 @@ button {
   border-radius: 7px;
   padding: 10px 30px;
   margin-bottom: 60px;
+}
+
+@media (max-width: 770px) {
+    .ind-h2{
+        font-size: 50px;
+    }
+    .ind-h3{
+        font-size: 20px;
+    }
+  }
 }
