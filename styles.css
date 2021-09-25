@@ -1,8 +1,16 @@
-body {
-  background-color: #fff6f1;
+:root {
+  --bold-color: #f4978e;
+  --medium-color: #f8ad9d;
+  --light-color: #fbc4ab;
+  --background-color: #fff6f1;
+  --button-color: #b8eeda;
 }
 
-.hero {
+body {
+  background-color: var(--background-color);
+}
+
+.ind-white-board {
   margin: 0 auto;
   margin-top: 30px;
   padding: 30px;
@@ -12,24 +20,24 @@ body {
   height: 480px;
 }
 
-.content {
+.ind-content {
   position: relative;
   top: 120px;
 }
 
-h1 {
+.ind-h1 {
   font-family: "Rozha One", serif;
-  color: #fbc4ab;
+  color: var(--light-color);
   font-size: 29px;
 }
-h2 {
+.ind-h2 {
   font-family: "Aclonica", sans-serif;
-  color: #f4978e;
+  color: var(--bold-color);
   font-size: 70px;
 }
-h3 {
+.ind-h3 {
   font-family: "Sanchez", serif;
-  color: #f8ad9d;
+  color: var(--medium-color);
   font-size: 30px;
 }
 
@@ -40,12 +48,58 @@ h3 {
   font-weight: bolder;
   font-size: 20px;
   color: white;
-  background-color: #b8eeda;
+  background-color: var(--button-color);
   border-radius: 4px;
   padding: 15px 44px;
 }
 
 span {
-  color: #f4978e;
+  color: var(--medium-color);
   margin-left: 7px;
+}
+
+.pro-white-board {
+  margin: 0 auto;
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.pro-h1 {
+  font-family: "Rozha One", serif;
+  color: var(--light-color);
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pro-content {
+  margin: 0 auto;
+}
+
+img {
+  border: 2px dotted var(--bold-color);
+  margin: 0 auto;
+}
+.pro-h2 {
+  font-family: "Sanchez", serif;
+  font-size: 30px;
+  color: var(--bold-color);
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  color: var(--medium-color);
+}
+
+button {
+  background-color: var(--button-color);
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px 30px;
 }
