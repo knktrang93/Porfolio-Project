@@ -49,8 +49,7 @@ nav li.active a {
   left: 30px;
 }
 
-.ind-h1,
-.abt-h1 {
+.ind-h1 {
   font-family: "Rozha One", serif;
   color: var(--light-color);
   font-size: 29px;
@@ -98,8 +97,8 @@ span {
   border-radius: 7px;
 }
 
-.pro-h1,
-.abt-h1 {
+.pro-h1 {
+  margin: 100px 50px 50px 50px;
   font-family: "Rozha One", serif;
   color: var(--light-color);
   font-size: 50px;
@@ -108,8 +107,9 @@ span {
 }
 
 img {
+  padding: 10px;
   border: 2px dotted var(--bold-color);
-  margin: 0 auto;
+  margin: 0;
 }
 .pro-h2 {
   font-family: "Sanchez", serif;
@@ -133,12 +133,41 @@ button {
   padding: 10px 30px;
   margin-bottom: 60px;
 }
-
 .abt-content {
-  margin-top: 30px;
   text-align: center;
+  margin: 100px 50px 50px 50px;
+}
+.abt-h1 {
+  font-family: "Rozha One", serif;
+  color: var(--light-color);
+  font-size: 50px;
+  text-align: end;
+}
+.abt-p {
+  color: var(--medium-color);
+  text-align: end;
+  padding: 0;
+  margin: 0;
+}
+.email-link {
+  text-decoration: none;
+  color: var(--button-color);
+}
+.contact-link {
+  text-align: end;
+  font-size: 25px;
 }
 
+i.mail,
+i.instagram,
+i.linkIn,
+i.github {
+  color: var(--button-color);
+  font-size: 35px;
+  padding: 2px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
 @media (max-width: 770px) {
   .ind-h2 {
     font-size: 50px;
@@ -149,5 +178,10 @@ button {
   nav.navBar {
     display: flex;
     justify-content: center;
+  }
+  .abt-h1,
+  .abt-p,
+  .contact-link {
+    text-align: center;
   }
 }
