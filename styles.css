@@ -12,7 +12,7 @@ body {
   /* padding-top: 150px; */
 }
 nav {
-  padding: 40px 40px 0 0;
+  padding: 10px 10px 0 0;
 }
 nav.navBar {
   display: flex;
@@ -21,7 +21,7 @@ nav.navBar {
 nav li {
   display: inline;
   list-style: none;
-  margin-right: 50px;
+  padding: 20px;
   font-size: 20px;
 }
 
@@ -92,13 +92,13 @@ span {
 
 .pro-white-board,
 .abt-white-board {
-  padding: 30px;
+  padding: 10px 30px 30px 30px;
   background-color: white;
   border-radius: 7px;
 }
 
 .pro-h1 {
-  margin: 100px 50px 50px 50px;
+  margin: 30px 50px 50px 50px;
   font-family: "Rozha One", serif;
   color: var(--light-color);
   font-size: 50px;
@@ -135,7 +135,7 @@ button {
 }
 .abt-content {
   text-align: center;
-  margin: 100px 50px 50px 50px;
+  margin: 50px;
 }
 .abt-h1 {
   font-family: "Rozha One", serif;
