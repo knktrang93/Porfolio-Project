@@ -12,7 +12,7 @@ body {
   /* padding-top: 150px; */
 }
 nav {
-  padding: 10px 10px 0 0;
+  padding: 25px 10px 0 0;
 }
 nav.navBar {
   display: flex;
@@ -45,7 +45,7 @@ nav li.active a {
 
 .ind-content {
   position: relative;
-  top: 60px;
+  top: 70px;
   left: 30px;
 }
 
