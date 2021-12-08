@@ -149,6 +149,7 @@ p {
   text-align: end;
   padding: 0;
   margin: 0;
+  font-size: 20px;
 }
 .email-link {
   text-decoration: none;
